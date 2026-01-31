@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Responsive.css">
+    <link rel="icon" type="image/x-icon" href="Img/logo.png">
+    <title>AI Development Company | Mo</title>
+</head>
+
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="Navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Img/aipxperts_logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            COMPANY
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Leadership</a></li>
+                            <li><a class="dropdown-item" href="#">Values and Culture</a></li>
+                            <li><a class="dropdown-item" href="#">Client Success Story</a></li>
+                            <li><a class="dropdown-item" href="#">Careers</a></li>
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                        </ul>
+
+                    <li class="nav-item dropdown" id="drop2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            AI Services
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">AI Consulting</a></li>
+                            <li><a class="dropdown-item" href="#">AI Development</a></li>
+                            <li><a class="dropdown-item" href="#">Generative AI Development</a></li>
+                            <li><a class="dropdown-item" href="#">AI Agent Development</a></li>
+                            <li><a class="dropdown-item" href="#">ChatGPT Development</a></li>
+                            <li><a class="dropdown-item" href="#">LLM Development</a></li>
+                        </ul>
+
+                    <li class="nav-item dropdown" id="drop3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Web Development</a></li>
+                            <li><a class="dropdown-item" href="#">Mobile App Development</a></li>
+                            <li><a class="dropdown-item" href="#">MVP Development</a></li>
+                            <li><a class="dropdown-item" href="#">Website Maintenance</a></li>
+                            <li><a class="dropdown-item" href="#">Website Performance</a></li>
+                            <li><a class="dropdown-item" href="#">CMS Development</a></li>
+                            <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
+                        </ul>
+
+                    <li class="nav-item dropdown" id="drop3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Expertise
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#"><b>Industry</b></a></li>
+                            <li><a class="dropdown-item" href="#">Healthcare and Fitness</a></li>
+                            <li><a class="dropdown-item" href="#">Warehouse and Logistics</a></li>
+                            <li><a class="dropdown-item" href="#">Travel and hospitality</a></li>
+                            <li><a class="dropdown-item" href="#">Education and eLearning</a></li>
+                            <li><a class="dropdown-item" href="#">Marketplace</a></li>
+                            <li><a class="dropdown-item" href="#">Media and Entertainment</a></li>
+
+                            <li><a class="dropdown-item" href="#"><b>Frontend Services</b></a></li>
+                            <li><a class="dropdown-item" href="#">Angular</a></li>
+                            <li><a class="dropdown-item" href="#">HTML</a></li>
+                            <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                            <li><a class="dropdown-item" href="#">React</a></li>
+                            <li><a class="dropdown-item" href="#">Next.js</a></li>
+                            <li><a class="dropdown-item" href="#">Tailwind CSS</a></li>
+                            <li><a class="dropdown-item" href="#">Vue.js</a></li>
+
+                            <li><a class="dropdown-item" href="#"><b>Backend Services</b></a></li>
+                            <li><a class="dropdown-item" href="#">Node.js</a></li>
+                            <li><a class="dropdown-item" href="#">Laravel</a></li>
+                            <li><a class="dropdown-item" href="#">CodeIgniter</a></li>
+                            <li><a class="dropdown-item" href="#">TypeScript</a></li>
+                            <li><a class="dropdown-item" href="#">Java</a></li>
+                            <li><a class="dropdown-item" href="#">PHP</a></li>
+                            <li><a class="dropdown-item" href="#">Python</a></li>
+                            <li><a class="dropdown-item" href="#">WordPress</a></li>
+                            <li><a class="dropdown-item" href="#">Shopify</a></li>
+
+                            <li><a class="dropdown-item" href="#"><b>Mobile Services</b></a></li>
+                            <li><a class="dropdown-item" href="#">Android</a></li>
+                            <li><a class="dropdown-item" href="#">Flutter</a></li>
+                            <li><a class="dropdown-item" href="#">FlutterFlow</a></li>
+                            <li><a class="dropdown-item" href="#">iOS</a></li>
+                            <li><a class="dropdown-item" href="#">Swift</a></li>
+                            <li><a class="dropdown-item" href="#">Kotlin</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown" id="drop4">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" aria-expanded="false">
+                            CASE STUDY
+                        </a>
+            </div>
+            <div id="GIT">
+                <span><b>Get In Touch</b></span>
+            </div>
+    </nav>
+
+    <!--Banner-->
+    <div class="banner">
+        <h1><b>5x Your Business with<br>
+                Our AI Development Company</b></h1>
+
+        <p>Are you tired of tech teams that overpromise and underdeliver? We understand. At our AI<br>
+            development company, Aipxperts, we build intelligent solutions that genuinely work,<br>
+            helping streamline your operations, reduce costs, and propel your business forward.</p>
+
+        <div id="TYAC">
+            <span><b>Talk Your AI Consultant</b></span>
+        </div>
+        <div id="FAQ">
+            <span><b>Free AI Quote</b></span>
+        </div>
+
+        <div class="Review">
+            <section id="services">
+                <div class="container">
+                    <div class="services">
+                        <div class="service" id="service-box">
+                            <img src="Img/Upwork-hero.png" alt="">
+                            <i class="fa-solid fa-star" id="icon-star"></i>
+                            <i class="fa-solid fa-star" id="icon-star"></i>
+                            <i class="fa-solid fa-star" id="icon-star"></i>
+                            <i class="fa-solid fa-star" id="icon-star"></i>
+                            <i class="fa-solid fa-star" id="icon-star"></i>
+                            <h4><b>4.9 <span id="star1">★★★★★</span></b></h4>
+                            <p><b>Ratings</b> <span>(101 Reviews)</span></p>
+                        </div>
+                        <div class="service" id="service-box">
+                            <img src="Img/Clutch-logo.png" alt="">
+                            <h4><b>5.0 <span id="star2">★★★★★</span></b></h4>
+                            <p><b>Ratings</b> <span>(10 Reviews)</span></p>
+                        </div>
+                        <div class="service" id="service-box">
+                            <img src="Img/Goodfirm-hero.png" alt="">
+                            <h4><b>5.0 <span id="star3">★★★★★</span></b></h4>
+                            <p><b>Ratings</b> <span>(05 Reviews)</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="blank-design">
+                <ul>
+                    <li><span>Our Awesome Clients</span></li>
+                    <li><img src="Img/lilobos.png" alt=""></li>
+                    <li><img src="Img/First-Class-Logo2663-1.png" alt=""></li>
+                    <li><img src="Img/svgviewer-png-output-1.png" alt=""></li>
+                    <li><img src="Img/Legit-Logo-1.png" alt=""></li>
+                    <li><img src="Img/ItimePunch-1.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Trusted by Innovators Like You-->
+    <div class="Trusted-by-Innovators">
+        <h2>Trusted by Innovators Like You</h2>
+        <p>Aipxperts transforms business potential through cutting-edge <span>AI development</span>, next-generation
+            <span>mobile app
+                development</span>, and precision <span>custom web <br> development</span>.
+        </p>
+
+        <div id="TBI-h3">
+            <ul>
+                <li>
+                    <h3 id="TBI">50+ <br>
+                        AI Engineers & <br> Developers</h3>
+                </li>
+                <li>
+                    <h3>300+ <br>
+                        AI-Driven Projects <br> Delivered
+                    </h3>
+                </li>
+                <li>
+                    <h3>100+ <br>
+                        Clients in USA, <br> Malaysia, Spain & <br> Dubai</h3>
+                </li>
+            </ul><br>
+
+            <div id="Box">
+                <p>From Startups to Scaleups, <br>
+                    2000+ Trust Us</p>
+                <button><span>Consult with Us</span></button>
+            </div>
+
+            <ol>
+                <li>
+                    <h3 id="TBI">97% <br>
+                        Happy Clients</h3>
+                </li>
+                <li>
+                    <h3 id="TBI-align">99% <br>
+                        On-time Launches</h3>
+                </li>
+            </ol>
+
+
+
+        </div>
+    </div>
+
+    <!--Professional Web & Mobile Development Services-->
+    <div id="pwmds">
+        <div class="PWMDS">
+            <h2>Professional Web & Mobile Development Services</h2>
+            <p>Transform your digital presence with professional web & mobile development services from experienced apps
+                development companies worldwide.</p>
+
+        </div>
+
+        <div class="card1">
+            <div id="card-inside">
+                <img src="Img/web_development_aipxperts.png" alt="">
+                <h4>Website Development</h4>
+                <p>Custom websites that help your business <br> thrive online. From straightforward company <br> sites
+                    to
+                    complex web
+                    platforms, each project <br> gets built with responsive design, user- <br>friendly interfaces, and
+                    strong
+                    foundations <br> that expand alongside your growing <br> business.</p>
+            </div>
+        </div>
+
+        <div class="card2">
+            <div id="card-inside">
+                <img src="Img/website_maintenance_aipxperts.png" alt="">
+                <h4>Website Maintenance</h4>
+                <p>Keep your website functioning properly with <br> regular care services. Security patches, <br>
+                    routine
+                    backups, and
+                    content modifications <br> are managed professionally while offering <br> technical assistance
+                    whenever
+                    you
+                    require it.</p>
+            </div>
+        </div>
+
+        <div class="card3">
+            <div id="card-inside">
+                <img src="Img/website_performance_aipxperts.png" alt="">
+                <h4>Website Performance</h4>
+                <p>Technical bottlenecks that hamper site <br> speed get diagnosed and resolved, helping <br> you retain
+                    more
+                    visitors. Performance <br> improvements boost search engine rankings <br> and deliver smoother
+                    browsing
+                    experiences <br> for everyone accessing your website.</p>
+            </div>
+        </div>
+
+        <div class="card4">
+            <div id="card-inside">
+                <img src="Img/Mobile-App-Development.png" alt="">
+                <h4>Mobile App Development</h4>
+                <p>We are an app development company for <br> iPhone and Android that customers find <br> valuable. Our
+                    development
+                    approach centers <br> on building solutions that streamline your <br> business operations while
+                    improving <br> customer
+                    experiences through clear design <br> and dependable performance.</p>
+            </div>
+        </div>
+
+        <div class="card5">
+            <div id="card-inside">
+                <img src="Img/mvp-poc-development-icon.png" alt="">
+                <h4>MVP Development</h4>
+                <p>Streamlined versions of product concepts <br> get constructed for testing with actual users <br>
+                    first.
+                    This
+                    strategy allows you to confirm <br> ideas and collect essential feedback before <br> committing to
+                    comprehensive
+                    development <br> phases.</p>
+            </div>
+        </div>
+
+        <div class="card6">
+            <div id="card-inside">
+                <img src="Img/Generative-AI.png" alt="">
+                <h4>CMS Development</h4>
+                <p>We develop custom WordPress websites that <br> surpass basic templates. Distinctive themes, <br>
+                    specialized
+                    features, online stores, and <br> tailored functionality get developed to align <br> perfectly with
+                    your
+                    specific
+                    business requirements <br> perfectly.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Our AI Development Services-->
+    <div class="OADS">
+        <div id="pwmds" class="OADS-BOX">
+            <div class="PWMDS1">
+                <h2>Our AI Development Services</h2>
+                <p>We sit down with you to figure out where Artificial Intelligence development services makes sense for
+                    your business. We dig into your actual <br> challenges, then build systems that turn your messy data
+                    into
+                    decisions you can trust.</p>
+
+            </div>
+
+            <div class="card">
+                <div class="card1 cardA">
+                    <div id="card-inside1">
+                        <img src="Img/ai_consulting (1).svg" alt="">
+                        <h4>AI Consulting</h4>
+                        <p><b>We know that AI can seem <br> overwhelming, with lots of <br> buzzwords and big promises.
+                                Our <br>
+                                approach
+                                is simple: we listen to your <br> needs, help you understand what’s <br> possible, and
+                                focus only
+                                on
+                                solutions <br> that will truly help your business.</b>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card2">
+                    <div id="card-inside1">
+                        <img src="Img/ai_development (1).svg" alt="">
+                        <h4>AI Development</h4>
+                        <p>At Aipxperts, we help your business <br> work smarter by creating tailored <br> solutions
+                            that handle
+                            routine tasks, <br> turn information into useful insights, <br> and support better
+                            decisions. <br> Whether
+                            you’re looking to streamline <br> operations, enhance customer <br> interactions, or plan
+                            ahead, we
+                            turn <br> smart ideas into practical tools that <br> fit your goals.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card3">
+                    <div id="card-inside1">
+                        <img src="Img/ga_development (1).svg" alt="">
+                        <h4>Generative AI <br> Development</h4>
+                        <p>We build a generative AI system that <br> adds value by helping your business <br> produce
+                            high-quality
+                            content, design <br> marketing materials, and develop <br> new product ideas quickly and
+                            <br> efficiently.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card4 card-align">
+                    <div id="card-inside1">
+                        <img src="Img/ai_agent_development (1).svg" alt="">
+                        <h4>AI Agent Development</h4>
+                        <p>Experience a smarter way to handle <br> complex tasks with AI agents <br> designed to fit
+                            seamlessly
+                            into your <br> workflow. These intelligent systems <br> adapt to your business, learning
+                            <br> from real
+                            interactions and evolving to <br> meet new challenges as they arise
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card5 card-align">
+                    <div id="card-inside1">
+                        <img src="Img/chatgpt_development (1).svg" alt="">
+                        <h4>ChatGPT Development</h4>
+                        <p>Transform customer conversations <br> with ChatGPT development built <br> around your
+                            business. We
+                            craft AI <br> assistants that speak in your brand’s <br> voice, understand your industry,
+                            and <br> provide
+                            real solutions instead of <br> canned answers. With ChatGPT, <br> handle more inquiries,
+                            offer helpful <br>
+                            support, and deliver a personal <br> touch at scale, making interactions <br> natural and
+                            effortless.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card6 card-align">
+                    <div id="card-inside1">
+                        <img src="Img/llm_development (1).svg" alt="">
+                        <h4>LLM Development</h4>
+                        <p>Don’t settle for one-size-fits-all AI. <br> With custom LLM development, you <br> get a
+                            language model
+                            trained on <br> your business’s own data and <br> expertise so it understands your <br>
+                            industry, speaks
+                            your language, and <br> delivers precise, relevant results.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+    <!--Stories of Transformation and Trust-->
+    <div class="STT">
+        <div class="OADS1">
+            <div id="pwmds1" class="OADS-BOX">
+                <div class="PWMDS full">
+                    <h2>Stories of Transformation and Trust</h2>
+                    <p>We sit down with you to figure out where Artificial Intelligence development services makes sense
+                        for your business. We dig into your actual challenges, <br> then build systems that turn your
+                        messy
+                        data into decisions you can trust.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box1">
+            <div class="card-1" style="width: 25rem;">
+                <div class="card-body">
+                    <p class="card-text"> "I've worked with this agency on several projects.
+                        Communication has also been fantastic, things get
+                        done quickly and without error. I continue to use
+                        them and would recommend anyone else to try this
+                        team out."</p>
+                    <h5 class="card-title">Christopher</h5>
+                    <p class="card-text"><span>Chief Officer</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box1">
+            <div class="card-1" style="width: 25rem;">
+                <div class="card-body">
+                    <p class="card-text"> "I've worked with this agency on several projects.
+                        Communication has also been fantastic, things get
+                        done quickly and without error. I continue to use
+                        them and would recommend anyone else to try this
+                        team out."</p>
+                    <h5 class="card-title">Christopher</h5>
+                    <p class="card-text"><span>Chief Officer</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box1">
+            <div class="card-1" style="width: 25rem;">
+                <div class="card-body">
+                    <p class="card-text"> "I've worked with this agency on several projects.
+                        Communication has also been fantastic, things get
+                        done quickly and without error. I continue to use
+                        them and would recommend anyone else to try this
+                        team out."</p>
+                    <h5 class="card-title">Christopher</h5>
+                    <p class="card-text"><span>Chief Officer</span></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Technology Stack for Your Custom Solutions-->
+    <div class="TSYCS">
+        <div class="OADS2">
+            <div id="pwmds2" class="OADS-BOX">
+                <div class="PWMDS">
+                    <h2>Technology Stack for Your Custom Solutions</h2>
+                    <p>As a leading AI development company, we create intelligent mobile apps and professional web &
+                        mobile development platforms using modern tech stack <br> for scalable business solutions.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="TS-Box">
+            <div class="Ts-Box1 ts-p">
+                <h5>Front-End Programing</h5>
+                <img src="Img/javascript-new.svg" alt="" id="First">
+                <img src="Img/angular-new.svg" alt="" id="First">
+
+                <img src="Img/react-js-new.svg" alt="" id="Secound">
+                <img src="Img/css-new.svg" alt="" id="Secound">
+
+                <img src="Img/vue-js-new.svg" alt="" id="Thired">
+                <img src="Img/html-new.svg" alt="" id="Thired">
+            </div>
+
+            <div class="Ts-Box1 ts-2">
+                <h5>Back-End Programming</h5>
+                <img src="Img/java-new.svg" alt="" id="First">
+                <img src="Img/Python-new.svg" alt="" id="First">
+                <img src="Img/Ruby-Tech.svg" alt="" id="Secound">
+
+                <img src="Img/PHP-tech.svg" alt="" id="Secound">
+                <img src="Img/Node-js-tech.svg" alt="" id="Thired">
+                <img src="Img/GO-new.svg" alt="" id="Thired">
+            </div>
+
+            <div class="Ts-Box1 ts-3">
+                <h5>DevOps & CI/CD</h5>
+                <img src="Img/docker-tech.svg" alt="" id="First">
+                <img src="Img/github-action-tech.svg" alt="" id="First">
+
+                <img src="Img/kubernetes-tech.svg" alt="" id="Secound">
+                <img src="Img/terraform-tech.svg" alt="" id="Secound">
+
+                <img src="Img/jenkins-tech.svg" alt="" id="Thired">
+                <img src="Img/ansible-tech.svg" alt="" id="Thired">
+            </div>
+
+            <div class="Ts2">
+                <div class="Ts-Box2 ts-4">
+                    <h5>Database Management</h5>
+                    <img src="Img/sql-tech.svg" alt="" id="First">
+                    <img src="Img/redis-tech.svg" alt="" id="First">
+
+                    <img src="Img/mysql-tech.svg" alt="" id="Secound">
+                    <img src="Img/mongodb-tech.svg" alt="" id="Secound">
+                </div>
+
+                <div class="Ts-Box2 ts-5">
+                    <h5>Cloud Platforms</h5>
+                    <img src="Img/Google-Cloud-Platform.svg" alt="" id="First">
+                    <img src="Img/Azure-tech.svg" alt="" id="First">
+                    <img src="Img/AWS-Tech.svg" alt="" id="Secound">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Innovative Digital Solutions for Industry Leaders-->
+    <div class="IDSIL">
+        <div class="OADS3">
+            <div id="pwmds3" class="OADS-BOX">
+                <div class="PWMDS">
+                    <h2>Innovative Digital Solutions for Industry Leaders</h2>
+                    <p>Discover how our custom mobile, web, and AI development services drive transformation across
+                        healthcare, logistics, travel, education, marketplaces, <br> and media. We deliver secure,
+                        scalable,
+                        and intelligent solutions tailored to your industry’s unique needs, empowering your business to
+                        thrive in the digital <br> age.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="TS-Box">
+            <div class="Ts-Box1 ts-p height">
+                <img src="Img/Healthcare-and-fitness.png" alt="" id="First">
+                <h4 id="h5-align">Healthcare and Fitness</h4>
+            </div>
+
+            <div class="Ts-Box1 ts-2 height">
+                <img src="Img/Warehouse-and-Transport.png" alt="" id="First">
+                <h4 id="h5-align">Warehouse and Transport</h4>
+            </div>
+
+            <div class="sec">
+                <div class="Ts-Box1 ts-3 height" id="align-tsA">
+                    <img src="Img/Travel-and-hospitality.png" alt="" id="First">
+                    <h4 id="h5-align">Travel and Hospitality</h4>
+                </div>
+
+
+                <div class="Ts-Box1 ts-p height">
+                    <img src="Img/Education-and-eLearning.png" alt="" id="First">
+                    <h4 id="h5-align">Education and eLearning</h4>
+                </div>
+
+                <div class="Ts-Box1 ts-2 height">
+                    <img src="Img/Marketplace.png" alt="" id="First">
+                    <h4 id="h5-align">BMarketplace</h4>
+                </div>
+
+                <div class="Ts-Box1 ts-3 height">
+                    <img src="Img/Entertainment.png" alt="" id="First">
+                    <h4 id="h5-align">Entertainment</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Case Study-->
+    <div class="Case-Study">
+        <div class="OADS3">
+            <div id="pwmds3" class="OADS-BOX">
+                <div class="PWMDS">
+                    <h2>Case Study <button><span>See All Work</span></button></h2>
+                    <p>Explore how our innovative solutions and expertise transform ideas into tangible results. At
+                        Aipxperts, <br> we bring creativity and strategy to every partnership we craft.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="imgs">
+            <div class="Ts2">
+                <div class="Ts-Box2 ts-4 heightA">
+                    <img src="Img/ai-chatbot-thumnail.png" alt="">
+
+                    <h5 id="h5-t">Resolving Calendar Conflicts with Intelligent <br>
+                        <h5> Scheduling for South Korea IT Teams</h5>
+                    </h5>
+
+                    <p>Sync is an intelligent scheduling tool that scans across connected calendars <br> and
+                        communication
+                        apps to find the best meeting times, avoiding conflicts and saving time.</p>
+
+                    <div class="red-line"></div>
+                    <h6>Results</h6>
+                    <h3><b>2M+</b>
+                        <h3 id="R-h3"><b>500K</b></h3>
+                    </h3>
+                    <p id="h3-p">App Downloads</p>
+                    <p id="h3-p2">New Users Acquired</p>
+                </div>
+
+                <div class="Ts-Box2 ts-5 heightA">
+                    <img src="Img/ai-chatbot-thumnail.png" alt="">
+
+                    <h5 id="h5-t">Round-the-Clock AI Chatbot for Smart Support and <br>
+                        <h5>
+                            Instant Insights
+                        </h5>
+                    </h5>
+
+                    <p>AI Chat Integration is a platform that lets businesses deploy AI chatbots for <br> 24/7 customer
+                        support, analyze chats for sales insights, and manage global <br> client interactions and
+                        employee
+                        activity in one place.</p>
+
+                    <div class="red-line"></div>
+                    <h6>Results</h6>
+                    <h3><b>1.5M+</b>
+                        <h3 id="R-h3"><b>560K</b></h3>
+                    </h3>
+                    <p id="h3-p">App Downloads</p>
+                    <p id="h3-p2">New Users Acquired</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Are you searching for an AI Development Company to boost efficiency?-->
+    <div class="AYSFAADCTBE">
+        <h1>Are you searching for an AI <br> Development Company to boost <br> efficiency?</h1>
+        <p>Our custom Artificial intelligence Development Service speed up your tasks, 2x productivity, <br> and remove
+            bottlenecks.</p>
+        <button><span>START WIT AI NOW!</span></button>
+    </div>
+
+    <!--What We're Building Right Now-->
+    <div class="WWBRN">
+        <div class="OADS4">
+            <div id="pwmds4" class="OADS-BOX">
+                <div class="PWMDS">
+                    <h2>What We're Building Right Now</h2>
+                    <p>Join our innovation journey! Step into our digital workshop where cutting-edge AI meets
+                        real-world solutions. We’re crafting the future, one line of code at <br> a time—and we’d love
+                        you to
+                        be part of the story.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="TS-BoxA">
+        <div class="Ts-Box1 ts-p" id="s-b1">
+            <h5>Marketplace Chatbot with BigData</h5>
+            <p>AI/ML-powered marketplace chatbot <br> leveraging big data for personalized <br> shopping, real-time
+                insights, and
+                seamless <br> user interactions.</p>
+            <h6>Technology Used</h6>
+            <img src="Img/LLAMA-Index.png" alt="" width="18%">
+            <img src="Img/OpenAI.png" alt="" width="18%">
+            <img src="Img/Gemini.png" alt="" width="18%">
+            <img src="Img/LLaMA2.png" alt="" width="18%">
+        </div>
+
+        <div class="Ts-Box1 ts-2" id="s-b1">
+            <h5>Staffing Solution</h5>
+            <p>Implementing cloud-based systems, giving <br> staff and customers mobile access to <br> manage operations
+                and
+                Payroll efficiently.</p>
+            <h6>Technology Used</h6>
+            <img src="Img/laravel-logo.png" alt="" width="18%">
+            <img src="Img/vue-js-logo.png" alt="" width="18%">
+            <img src="Img/flutter_logo.png" alt="" width="18%">
+        </div>
+
+        <div class="Ts-Box1 ts-3" id="s-b1">
+            <h5>AI Call Agent</h5>
+            <p>The AI call agent project is a cutting-edge <br> initiative to develop a system that <br> automates phone
+                interactions, significantly <br> enhancing customer service and <br> operational efficiency for
+                businesses.</p>
+            <h6>Technology Used</h6>
+            <img src="Img/GPT-4.png" alt="" width="18%">
+            <img src="Img/Midjourney.png" alt="" width="18%">
+            <img src="Img/LangChain.png" alt="" width="18%">
+            <img src="Img/Unstructured.png" alt="" width="18%">
+            <img src="Img/DALLE-E.png" alt="" width="18%">
+        </div>
+    </div>
+
+    <!--Frequently asked questions-->
+    <div class="FAQ">
+        <div class="OADS5">
+            <div id="pwmds5" class="OADS-BOX">
+                <div class="PWMDS">
+                    <h2>Frequently asked questions</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="TS-BoxA">
+            <div class="Ts-Box1 ts-p" id="FAQ1">
+                <h5>What steps are involved in onboarding a new team at Aipxperts?<i
+                        class="fa-regular fa-square-minus"></i></h5>
+                <p>We follow a streamlined onboarding process: <br>
+                    Understanding your project requirements and goals <br>
+                    Defining the scope, timeline, and resource needs <br>
+                    Selecting and assigning the right talent <br>
+                    Signing necessary agreements (including NDAs) <br>
+                    Setting up communication channels and project management tools <br>
+                    Kicking off development with clear milestones and regular updates</p>
+            </div>
+
+
+            <div class="Ts-Box1 ts-p FAQ2" id="FAQ1">
+                <h5>How many years of experience does the Aipxperts team have?<i class="fa-regular fa-square-plus"
+                        id="fa-FAQ"></i></h5>
+            </div>
+
+            <div class="Ts-Box1 ts-p FAQ2" id="FAQ1">
+                <h5>How do you select the right talent for a project?<i class="fa-regular fa-square-plus"
+                        id="fa-FAQ"></i></h5>
+            </div>
+
+            <div class="Ts-Box1 ts-p FAQ2" id="FAQ1">
+                <h5>Do you sign an NDA before starting any projects?<i class="fa-regular fa-square-plus"
+                        id="fa-FAQ"></i></h5>
+            </div>
+
+            <div class="Ts-Box1 ts-p FAQ2" id="FAQ1">
+                <h5>How long does it take to hire a team at Aipxperts?<i class="fa-regular fa-square-plus"
+                        id="fa-FAQ"></i></h5>
+            </div>
+
+            <div class="Ts-Box1 ts-p FAQ2" id="FAQ1">
+                <h5>What measures do you take to protect my data and that of my users?<i
+                        class="fa-regular fa-square-plus" id="fa-FAQ"></i></h5>
+            </div>
+
+            <div class="Ts-Box1 ts-p FAQ2" id="FAQ1">
+                <h5>What web app development services do you offer?<i class="fa-regular fa-square-plus" id="fa-FAQ"></i>
+                </h5>
+            </div>
+
+            <div class="Ts-Box1 ts-p FAQ2" id="FAQ1">
+                <h5>What AI services do you offer?<i class="fa-regular fa-square-plus" id="fa-FAQ"></i></h5>
+            </div>
+
+            <div class="Ts-Box1 ts-p FAQ2" id="FAQ1">
+                <h5>Do you use AI tools to build mobile and web apps?<i class="fa-regular fa-square-plus"
+                        id="fa-FAQ"></i></h5>
+            </div>
+
+            <div class="Ts-Box1 ts-p FAQ2" id="FAQ1">
+                <h5>Do you develop software for both mobile and web platforms?<i class="fa-regular fa-square-plus"
+                        id="fa-FAQ"></i></h5>
+            </div>
+
+            <div class="Ts-Box1 ts-p FAQ2" id="FAQ1">
+                <h5>How do you ensure quality when my project has a tight deadline?<i class="fa-regular fa-square-plus"
+                        id="fa-FAQ"></i></h5>
+            </div>
+
+            <div class="Ts-Box1 ts-p FAQ2" id="FAQ1">
+                <h5>Which client communication channels do you support for development?<i
+                        class="fa-regular fa-square-plus" id="fa-FAQ"></i></h5>
+            </div>
+
+            <div class="Ts-Box1 ts-p FAQ2" id="FAQ1">
+                <h5>Which development method do Aipxperts use?<i class="fa-regular fa-square-plus" id="fa-FAQ"></i></h5>
+            </div>
+
+            <div class="Ts-Box1 ts-p FAQ2" id="FAQ1">
+                <h5>What’s your pricing model?<i class="fa-regular fa-square-plus" id="fa-FAQ"></i></h5>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Dive into Our Insights!-->
+    <div class="DIOI">
+        <div class="OADS6">
+            <div id="pwmds6" class="OADS-BOX">
+                <div class="PWMDS">
+                    <h2>Dive into Our Insights!</h2>
+                    <p>Curious minds wanted! Explore our research, podcasts, and blogs for the freshest <br> insights
+                        that
+                        will keep you informed.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="TS-BoxB">
+            <div class="Ts-Box1 ts-p" id="s-b2">
+                <img src="Img/ai-consulting-blog.png" alt="" width="112%">
+                <h6>June 9, 2025</h6>
+                <h6 id="para">How to Choose the Right AI <br> Consulting Partner in USA, Singapore <br> & Malaysia?</h6>
+                <p>Introduction AI consulting services are growing fast in the USA, Singapore, and Malaysia, yet
+                    the
+                    wrong partners could seriously damage…</p>
+                <span>Continue Reading</span>
+            </div>
+
+            <div class="Ts-Box1 ts-2" id="s-b2">
+                <img src="Img/vue-js-testing-guide-thumbnail.png" alt="" width="112%">
+                <h6>April 2, 2024</h6>
+                <h6 id="para">Vue.js Testing Guide: Jest & Vue Test <br> Utils</h6>
+                <p>Introduction Testing Vue.js applications is essential for ensuring code quality, maintaining
+                    reliability, and delivering exceptional user experiences. In this comprehensive…</p>
+                <span>Continue Reading</span>
+            </div>
+
+            <div class="Ts-Box1 ts-3" id="s-b2">
+                <img src="Img/cross-platform-app-development-thumbnail.png" alt="" width="112%">
+                <h6>March 28, 2024</h6>
+                <h6 id="para">Top 3 Popular Cross-Platform App <br> Development Frameworks</h6>
+                <p>In today's digital age, where smartphones, tablets, laptops, and other devices dominate our daily
+                    lives, the demand for versatile and…</p>
+                <span>Continue Reading</span>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="Footer">
+        <img src="Img/footer-logo.svg" alt="" id="Footer-logo">
+        <div class="F-box1">
+            <h4>Work Enquiry</h4>
+            <span><i class="fa-solid fa-envelope"></i>sales@aipxperts.com</span><br>
+            <span id="F-phone"><i class="fa-solid fa-phone"></i> +91-9099985448</span>
+        </div>
+        <div class="F-box1 F-box2">
+            <h4>Career Enquiry</h4>
+            <span><i class="fa-solid fa-envelope"></i>hr@aipxperts.com</span><br>
+            <span id="F-phone"><i class="fa-solid fa-phone"></i>+91-9099985430</span>
+        </div>
+
+        <div class="Industries">
+            <h4>Industries</h4><br>
+            <span class="A">Healthcare and Fitness</span><br>
+            <span id="industries-align">Warehouse and Logistics</span><br>
+            <span id="industries-align">Travel and hospitality</span><br>
+            <span id="industries-align">Education and eLearning</span><br>
+            <span id="industries-align">Marketplace</span><br>
+        </div>
+
+        <div class="Industries Industries2">
+            <h4>Services</h4><br>
+            <span id="industries-align">Web Development</span><br>
+            <span id="industries-align">Mobile App Development</span><br>
+            <span id="industries-align">Website Performance</span><br>
+            <span id="industries-align">Website Maintenance</span><br>
+        </div>
+
+        <div class="Industries Industries2 Industries3">
+            <h4>AI Services</h4><br>
+            <span id="industries-align">AI Agent Development</span><br>
+            <span id="industries-align">AI Consulting</span><br>
+            <span id="industries-align">Generative AI <br> Development</span><br>
+        </div>
+
+        <div class="TS-BoxC I-height">
+            <div class="Ts-Box1 ts-p india" id="s-b2">
+                <h4><img src="Img/india-flag.png" alt="">India</h4>
+                <img src="Img/india_image.png" alt="">
+                <div class="paragraph">
+                    Shilp Epitome, 1003 - 1004, Bodakdev, <br>
+                    Ahmedabad, Gujarat 380054
+                </div>
+            </div>
+        </div>
+
+        <div class="TS-BoxC">
+            <div class="Ts-Box1 ts-p india" id="s-b2">
+                <h4><img src="Img/us-flag.png" alt="">USA</h4>
+                <img src="Img/usa_image.png" alt="">
+                <div class="paragraph">
+                    800 Abel st, Unit # 312, <br>
+                    Milpitas 95035, USA
+                </div>
+            </div>
+        </div>
+
+        <div class="TS-BoxC">
+            <div class="Ts-Box1 ts-p india ind-border" id="s-b2">
+                <h4><img src="Img/Malaysia-flag.png" alt="">Malaysia</h4>
+                <img src="Img/malaysia_image.png" alt="">
+                <div class="paragraph">
+                    JLN SS8/4 SS8 Petaling Jaya
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="black-box"></div>
+
+    <div class="footer-follow">
+        <span>Follow us</span><br>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-solid fa-globe"></i>
+        <i class="fa-brands fa-linkedin"></i>
+
+        <div class="footer-imgs">
+            <img src="Img/Upwork-footer.png" alt="">
+            <span>Reviews 101 | Rating <br> 4.9/5</span>
+        </div>
+        <div class="footer-imgs2">
+            <img src="Img/Clutch_footer.png" alt="">
+            <span>Reviews 10 | Rating <br> 5/5</span>
+        </div>
+        <div class="footer-imgs3">
+            <img src="Img/Goodfirm-footer.png" alt="">
+            <span>Reviews 5 | Rating 5/5</span>
+        </div>
+        <div class="footer-imgs4">
+            <img src="Img/Google-footer.png" alt="" id="img4">
+            <span>Reviews 56 | Rating <br> 4.6/5</span>
+        </div>
+    </div>
+
+    <div class="line"></div>
+    <div class="footer-last">
+        <span><b id="last">Copyright @2026 Aipxperts Technolabs Private Limited. All Rights Reserved.</b></span>
+    </div>
+</body>
+
+</html>
